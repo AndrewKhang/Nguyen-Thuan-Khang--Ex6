@@ -1,0 +1,134 @@
+/* ============ GLOBAL STYLES ============ */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #004b8d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  /* ============ MAIN CONTENT ============ */
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  main h1 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+  }
+  
+  main p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* ============ FILTER SECTION ============ */
+  #filters_screen {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+  #filters_screen button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #filters_screen button {
+    margin: 5px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  #filters_screen button.active {
+    background-color: #69b3a2;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  /* ============ VISUALISATION AREA ============ */
+  .responsive-svg-container {
+    width: 100%;
+    height: 500px;
+    margin: 1.5rem 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  /* ============ FOOTER ============ */
+  footer {
+    background-color: #004b8d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  
+  /* ============ DATA SOURCE SECTION ============ */
+  .body {
+    background-color: #f0f4f9;
+    border-left: 4px solid #004b8d;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 6px;
+  }
+  
+  .body a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .body a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ============ RESPONSIVE DESIGN ============ */
+  @media (max-width: 600px) {
+    header h1,
+    main h1 {
+      font-size: 1.4rem;
+    }
+  
+    #filters_screen button {
+      width: 90%;
+      margin: 0.4rem 0;
+    }
+  
+    .responsive-svg-container {
+      height: 350px;
+      width: 400px;
+    }
+  }
+  
